@@ -60,3 +60,6 @@
 - Roboto
 
 </details>
+
+## output 
+<img width="1920" height="868" alt="Image" src="https://github.com/user-attachments/assets/62ead5df-fbe4-4d18-9971-c6554f0a327f" />
