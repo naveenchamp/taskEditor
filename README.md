@@ -1,4 +1,5 @@
-The goal of this coding exam is to quickly get you off the ground with **Lists and Keys**.
+## taskEditor:
+**Lists and Keys**.
 
 ### Refer to the image below:
 
@@ -31,41 +32,7 @@ The goal of this coding exam is to quickly get you off the ground with **Lists a
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, the list of tasks and `Task` input should be empty and the active option in the `Tags` select element should be the first item of the given tagsList.
-- When non-empty values are provided for Tasks, Tags and the **Add Task** button is clicked,
-  - A new task should be added to the list of tasks.
-  - The value inside the `Task` input and `Tag` select elements should be updated to their initial values.
-- When a single tag is clicked it should be changed to an active state and filtered tasks should be displayed accordingly.
-- When no tag in the list of tags is active, then all the tasks should be displayed.
-- The `App` component consists of the `tagsList`. It consists of a list of tag details objects with the following properties in each object.
-
-  |     key     | DataType |
-  | :---------: | :------: |
-  |  optionId   |  String  |
-  | displayText |  String  |
-
-</details>
-
 ### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instruction is required for the tests to pass**
-
-- Use the `uuid` package to generate the unique id.
-
-</details>
 
 <details>
 <summary>Colors</summary>
@@ -93,8 +60,3 @@ The app must have the following functionalities
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
